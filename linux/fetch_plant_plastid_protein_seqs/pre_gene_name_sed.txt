@@ -1,0 +1,183 @@
+matK	maturase K
+rbcL	ribulose-1,5-bisphosphate carboxylase\/oxygenase large subunit
+rbcL	ribulose-1, 5-bisphosphate carboxylase\/oxygenase large subunit
+rbcL	ribulose-1,5-bisphosphate carboxylase large subunit
+rbcL	ribulose-1, 5-bisphosphate carboxylase large subunit
+rbcL	ribulose-1,5-bisphosphate carboxylase
+ccsA	cytochrome c heme attachment protein
+ccsA	cytochrome c biogenesis
+ccsA	CcsA
+clpP	clp protease proteolytic subunit
+clpP	ATP-dependent Clp protease proteolytic
+clpP	ATP-dependent clp protease proteolytic
+clpP	ClpP
+clpP	Clp protease proteolytic subunit
+clpP	clpP
+COI	cytochrome oxidase subunit 1
+HMGR	3-hydroxy-3-methylglutaryl coenzyme A reductase
+LFY	leafy
+ndhA	NAD(P)H-quinone oxidoreductase chain 1
+ndhA	NdhA
+ndhA	NADH dehydrogenase subunit 1
+ndhA	NAD(P)H-quinone oxidoreductase chain 1
+ndhA	NAD(P)H-quinone oxidoreductase subunit 1
+ndhB	NAD(P)H-plastoquinone oxidoreductase subunit 2
+ndhB	NAD(P)H-quinone oxidoreductase subunit 2
+ndhB	NdhB
+ndhB	NADH dehydrogenase subunit 2
+ndhC	NAD(P)H-plastoquinone oxidoreductase subunit 3
+ndhC	NAD(P)H-quinone oxidoreductase subunit 3
+ndhC	NADH dehydrogenase subunit 3
+ndhC	NADH dehydrogenase subunit C
+ndhC	NdhC
+ndhD	NAD(P)H-plastoquinone oxidoreductase subunit 4
+ndhD	NADH dehydrogenase subunit 4
+ndhD	NdhD
+ndhE	NAD(P)H-plastoquinone oxidoreductase subunit 4L
+ndhE	NADH-plastoquinone oxudoreductase subunit 4L
+ndhE	NAD(P)H-quinone oxidoreductase subunit 4L
+ndhE	NADH dehydrogenase subunit 4L
+ndhE	NdhE
+ndhF	NAD(P)H dehydrogenase subunit F
+ndhF	NAD(P)H-plastoquinone oxidoreductase subunit 5
+ndhF	NAD(P)H-quinone oxidoreductase subunit 5
+ndhF	NADH dehydrogenase subunit 5
+ndhF	NdhF
+ndhF	a subunit of NADH dehydrogenase
+ndhG	NAD(P)H-plastoquinone oxidoreductase subunit 6
+ndhG	NAD(P)H-quinone oxidoreductase subunit 6
+ndhG	NADH dehydrogenase subunit 6
+ndhG	NdhG
+ndhH	NAD(P)H-plastoquinone oxidoreductase subunit 7
+ndhH	NADH dehydrogenase subunit 7
+ndhH	NADH dehydrogenase 49KDa subunit 
+ndhH	NdhH
+ndhI	NAD(P)H-plastoquinone oxidoreductase subunit 8
+ndhI	NADH dehydrogenase subunit 8
+ndhI	NAD(P)H-plastoquinone oxidoreductase subunit I
+ndhI	NADH dehydrogenase subunit I
+ndhI	NdhI
+ndhA	NADH-plastoquinone oxidoreductase subunit 1
+ndhB	NADH-plastoquinone oxidoreductase subunit 2
+ndhC	NADH-plastoquinone oxidoreductase subunit 3
+ndhD	NADH-plastoquinone oxidoreductase subunit 4
+ndhE	NADH-plastoquinone oxidoreductase subunit 4L
+ndhF	NADH dehydrogenase subunit F
+ndhF	NADH-plastoquinone oxidoreductase subunit 5
+ndhG	NADH-plastoquinone oxidoreductase subunit 6
+ndhH	NADH-plastoquinone oxidoreductase subunit 7
+ndhI	NADH-plastoquinone oxidoreductase subunit I
+ndhA	NAD(P)H-plastoquinone oxidoreductase subunit 1
+ndhB	NAD(P)H-plastoquinone oxidoreductase subunit 2
+ndhC	NAD(P)H-plastoquinone oxidoreductase subunit 3
+ndhD	NAD(P)H-plastoquinone oxidoreductase subunit 4
+ndhE	NAD(P)H-plastoquinone oxidoreductase subunit 4L
+ndhF	NAD(P)H dehydrogenase subunit F
+ndhF	NAD(P)H-plastoquinone oxidoreductase subunit 5
+ndhG	NAD(P)H-plastoquinone oxidoreductase subunit 6
+ndhH	NAD(P)H-plastoquinone oxidoreductase subunit 7
+ndhI	NAD(P)H-plastoquinone oxidoreductase subunit I
+petA	cytochrome f
+petA	Cytochrome f
+petA	PetA
+petB	cytochrome b6 
+petB	cytochrome b6,
+petB	cytochrome b,
+petB	PetB
+petD	cytochrome b6\/f complex subunit 4
+petD	cytochrome b6\/f complex subunit IV
+petD	cytochrome b6-f complex subunit 4
+petD	cytochrome b6-f complex subunit IV
+petD	cytochrome b6\/f subunit IV
+petD	cytochrome b6\/f subunit 4
+petD	cytochrome b6-f subunit 4
+petD	cytochrome b6-f subunit IV
+petD	cytochrome b6f complex subunit 4
+petD	cytochrome b6f complex subunit IV
+petD	cytochrome b6f subunit 4
+petD	cytochrome b6f subunit IV
+petD	PetD
+petL	PetL
+petL	cytochrome b-f subunit VI
+petL	cytochrome b-f 3"."5 kDa subunit VI
+petL	cytochrome b6-f subunit VI
+petL	cytochrome b6-f 3"."5 kDa subunit VI
+petL	cytochrome b\/f subunit VI
+petL	cytochrome b\/f 3"."5 kDa subunit VI
+petL	cytochrome b6\/f subunit VI
+petL	cytochrome b6\/f 3"."5 kDa subunit VI
+petL	cytochrome b-f complex subunit VI
+petL	cytochrome b-f complex 3"."5 kDa subunit VI
+petL	cytochrome b6-f complex subunit VI
+petL	cytochrome b6-f complex 3"."5 kDa subunit VI
+petL	cytochrome b\/f complex subunit VI
+petL	cytochrome b\/f complex 3"."5 kDa subunit VI
+petL	cytochrome b6\/f complex subunit VI
+petL	cytochrome b6\/f complex 3"."5 kDa subunit VI
+petL	cytochrome b-f subunit VI
+petL	cytochrome b-f 3"."5 kDa subunit
+petL	cytochrome b6-f subunit VI
+petL	cytochrome b6-f 3"."5 kDa subunit
+petL	cytochrome b\/f subunit VI
+petL	cytochrome b\/f 3"."5 kDa subunit
+petL	cytochrome b6\/f subunit VI
+petL	cytochrome b6\/f 3"."5 kDa subunit
+petL	cytochrome b-f complex subunit VI
+petL	cytochrome b-f complex 3"."5 kDa subunit
+petL	cytochrome b6-f complex subunit VI
+petL	cytochrome b6-f complex 3"."5 kDa subunit
+petL	cytochrome b\/f complex subunit VI
+petL	cytochrome b\/f complex 3"."5 kDa subunit
+petL	cytochrome b6\/f complex subunit VI
+petL	cytochrome b6\/f complex 3"."5 kDa subunit
+petL	cytochrome b\/f complex 3"."5 kDa
+psbA	photosystem II protein D1
+psbA	PsbA
+psbA	photosystem II 32 KDa
+psbK	PsbK
+psbK	psbK
+psbK	photosystem II protein K
+psbK	photosytem II protein K
+rpl2	ribosomal protein L2
+rpl2	ribosomal protein L2
+rpl2	Rpl2
+rpl23	ribosomal protein L23
+rpl32	ribosomal protein L32
+rpoA	RNA polymerase alpha subunit
+rpoA	RNA polymerase alpha chain
+rpoA	RpoA
+rpoB	RNA polymerase subunit
+rpoB	RNA polymerase beta subunit
+rpoB	RNA polymerase beta chain
+rpoB	RpoB
+rpoC1	RNA polymerase C
+rpoC1	RpoC1
+rpoC1	RNA polymerase beta' subunit
+rpoC1	RNA polymerase beta\' subunit
+rpoC1	RNA polymerase beta subunit-1
+rpoC1	RNA polymerase beta (
+rpoC1	RNA polymerase beta subunit
+rpoC1	RNA polymerase subunit
+Y770_p026	ribosomal protein S3
+ycf2	hypothetical chloroplast RF21
+ycf4	photosystem I assembly protein ycf4
+atpB	ATP synthase beta subunit
+atpB	ATP synthase CF1 beta subunit
+atpB	ATPase beta subunit
+atpB	ATP synthase CF1 beta chain
+atpB	AtpB
+atpF	AtpF
+atpF	ATP synthase CF0 subunit I
+atpF	ATP synthase CF0 B chain
+atpF	ATP synthase CF0 B subunit
+atpH	AtpH
+atpH	ATP synthase CF0 subunit III
+atpH	ATP synthase CF0 C subunit
+atpH	ATP synthase C chain
+atpH	ATP synthase CF0 C chain
+atpH	ATP synthase CF0 III
+ccsA	cytochrome c heme attachment protein
+clpP	clp protease proteolytic subunit
+COI	cytochrome oxidase subunit 1
+HMGR	3-hydroxy-3-methylglutaryl coenzyme A reductase
+LFY	leafy

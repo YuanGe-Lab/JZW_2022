@@ -1,0 +1,33 @@
+atpB	ATP synthase beta subunit
+atpF	AtpF
+atpH	AtpH
+ccsA	cytochrome c heme attachment protein
+clpP	clp protease proteolytic subunit
+COI	cytochrome oxidase subunit 1
+HMGR	3-hydroxy-3-methylglutaryl coenzyme A reductase
+LFY	leafy
+ndhA	NADH-plastoquinone oxidoreductase subunit 1
+ndhB	NADH-plastoquinone oxidoreductase subunit 2
+ndhC	NADH-plastoquinone oxidoreductase subunit 3
+ndhD	NADH-plastoquinone oxidoreductase subunit 4
+ndhE	NADH-plastoquinone oxidoreductase subunit 4L
+ndhF	NADH dehydrogenase subunit F
+ndhF	NADH-plastoquinone oxidoreductase subunit 5
+ndhG	NADH-plastoquinone oxidoreductase subunit 6
+ndhH	NADH-plastoquinone oxidoreductase subunit 7
+ndhI	NADH-plastoquinone oxidoreductase subunit I
+petA	cytochrome f
+petB	cytochrome b6
+petD	cytochrome b6/f complex subunit IV
+petL	cytochrome b6-f subunit VI
+psbA	photosystem II protein D1
+psbK	PsbK
+rpl2	ribosomal protein L2
+rpl23	ribosomal protein L23
+rpl32	ribosomal protein L32
+rpoA	RNA polymerase alpha subunit
+rpoB	RNA polymerase subunit
+rpoC1	RNA polymerase C
+Y770_p026	ribosomal protein S3
+ycf2	hypothetical chloroplast RF21
+ycf4	photosystem I assembly protein ycf4
