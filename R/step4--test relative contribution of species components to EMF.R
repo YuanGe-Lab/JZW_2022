@@ -1,12 +1,12 @@
 # Please run step1--stability_calcuation.R
-#setwd("E:/Fauna/Communications Biology/data")
+
 library(vegan)
 library(GUniFrac)
 library(picante)
 library(phangorn)
 library(ggpmisc)
 library(cowplot)
-source("E:/Fauna/Communications Biology/data/R_sources/other_source.R")
+source("R_sources/other_source.R")
 
 taxa=read.csv("data_files/fauna_tax.csv",row.names = 1)
 library(vegan)
@@ -20,9 +20,7 @@ std.Method="no"
 abs.PR=0.5
 map=read.csv("data_files/map.csv",row.names = 1)
 nrow(map)
-#map=map[colnames(tabs[["Pl"]]),]
-#tabs$Pl=tabs$LF
-#trees$Pl=trees$LF
+
 tabs = list(Pl=NULL,SF=NULL,LF=NULL)
 tabs$Pl=read.csv("data_files/plant_comm.csv", row.names = 1, header=T)
 tabs$SF = read.csv("data_files/soil_fauna_comm.csv", row.names = 1, header=T)

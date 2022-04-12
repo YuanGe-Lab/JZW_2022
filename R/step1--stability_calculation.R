@@ -1,12 +1,12 @@
-#setwd("E:/Fauna/Communications Biology/data")
+
 library(vegan)
 library(GUniFrac)
 library(picante)
 library(phangorn)
 library(ggpmisc)
 library(cowplot)
-source("E:/Fauna/Communications Biology/data/R_sources/other_source.R")
-source("E:/Fauna/Communications Biology/data/R_sources/permSEM_source.R")
+source("R_sources/other_source.R")
+source("R_sources/permSEM_source.R")
 order_fauna=F
 same_PS=F
 SQRT_biomass=F
@@ -33,7 +33,7 @@ for(i in names(tabs)){
   tabs[[i]]=tabs[[i]][,rownames(map)]
   ma=match.phylo.comm(trees[[i]],t(tabs[[i]]))
   trees[[i]] = ma$phy; tabs[[i]]=t(ma$comm)
-  a=c(a,all(apply(tabs[[i]],2,sum) >0 ))
+  a=c(a,all(apply(tabs[[i]],2,sum) > 0 ))
 }
 a
 
@@ -95,7 +95,6 @@ for(i in names(tabs)){
   mat_temp[]=0;mat_temp[rownames(similarities[[i]]),colnames(similarities[[i]])]=similarities[[i]][]
   mat_temp[!rownames(mat_temp)%in%colnames(tabs[[i]]),!rownames(mat_temp)%in%colnames(tabs[[i]])]=0
   similarities[[i]]=mat_temp
-  
 }
 
 multi.variate.mat=list(  Multifunc=alpha_all[,uniq_functions] )
@@ -297,11 +296,12 @@ all(rownames(alpha_all)==rownames(map))
 nrow(map)
 
 ####################### NPERMANOVA ###################
+reps = 9999
 permANOVA=NULL
 for(i in names(data_SEM.list)){
   a=1-data_SEM.list[[i]]
   a[is.na(a)] = 1
-  permANOVA[[i]]=adonis2(as.dist(a)~D*I*PR,data=map,permutations = 9999)
+  permANOVA[[i]]=adonis2(as.dist(a)~D*I*PR,data=map,permutations = reps)
 }
 permANOVA$Pl
 permANOVA$SF
@@ -311,18 +311,18 @@ permANOVA$Multifunc
 ####################### Mantel test ###################
 mantel.re = list()
 for(i in names(data_SEM.list)[1:3]){
-  mantel.re[[paste0(i,".vs.","MultiFunc")]] = vegan::mantel(xdis = data_SEM.list[[i]], ydis = data_SEM.list[["Multifunc"]],permutations = 9999, method = "sp")
+  mantel.re[[paste0(i,".vs.","MultiFunc")]] = vegan::mantel(xdis = data_SEM.list[[i]], ydis = data_SEM.list[["Multifunc"]],permutations = reps, method = "sp")
 }
 for(i in names(data_SEM.list)[1:2]){
   for(j in names(data_SEM.list)[2:3]){
     if(i != j){
       print(paste0(i,".vs.",j))
-      mantel.re[[paste0(i,".vs.",j)]] = vegan::mantel(xdis = data_SEM.list[[i]], ydis = data_SEM.list[[j]],permutations = 9999,  method = "sp")
+      mantel.re[[paste0(i,".vs.",j)]] = vegan::mantel(xdis = data_SEM.list[[i]], ydis = data_SEM.list[[j]],permutations = reps,  method = "sp")
     }
   }
 }
-mantel.re
-
+cbind(r = sapply(mantel.re,function(X){X$statistic}),
+      p=sapply(mantel.re,function(X){X$signif}))
 ############# other codes not that dose not relate to the results in the current manuscript ################
 ########################### calculating CVs within group ###################
 data_forcv=alpha_all[,uniq_functions]

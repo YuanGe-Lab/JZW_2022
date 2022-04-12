@@ -1,11 +1,11 @@
 # Please run step1--stability_calcuation.R
-#setwd("E:/Fauna/Communications Biology/data")
+
 library(lavaan)
 library(semPlot)
 library(vegan)
 library(cowplot)
-source("E:/Fauna/Communications Biology/data/R_sources/other_source.R")
-source("E:/Fauna/Communications Biology/data/R_sources/permSEM_source.R")
+source("R_sources/other_source.R")
+source("R_sources/permSEM_source.R")
 
 data_sem=list(cbind(invariability,univariate_stability$space.stab),
               cbind(resist_to.D,univariate_stability$resist.D),
